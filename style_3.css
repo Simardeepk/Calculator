@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khitan+Small+Script&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin:0;
+    background: linear-gradient(pink 30%, white);
+    font-family: "Noto Serif Khitan Small Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.button{
+    cursor: pointer;
+    color: rgb(40, 113, 113);
+    font-size: 23px;
+    width: 66px;
+    padding: 20px;
+    border: 2px solid rgb(235, 142, 142);
+    border-radius: 9px;
+    margin: 0 3px;
+    background-color: blanchedalmond;
+}
+
+.row{
+    margin: 6px 0;
+}
+
+.row .enter{
+    width: 300px;
+    font-size:30px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid #ff0f0f;
+    border-radius: 5px;
+}
+
+.text{
+    text-align: center;
+    color:#808beb;
+    margin:auto;
+
+}
+
+.mg-auto{
+    margin: auto;
+}
+  
+.first{
+    display:flex;
+} 
+
+.first-col{
+    flex-direction: column;
+}
+  
+.items-center{
+    align-items: center;
+}
